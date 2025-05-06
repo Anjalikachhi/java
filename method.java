@@ -6,7 +6,7 @@ class parent{
     void sum(int a,int b){
         System.out.println(a+b);
     }
-    void sum(int a,int b,int c){
+    void sum(double a,double b,double c){
         System.out.println(a+b+c);
     }
 }
@@ -18,6 +18,6 @@ public class method {
         parent obj=new parent();
         obj.sum(47);
         obj.sum(76,67);
-        obj.sum(34,45,56);
+        obj.sum(3.4,4.5,5.6);
     }
 }
