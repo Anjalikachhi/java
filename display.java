@@ -1,4 +1,4 @@
-import java.net.SocketTimeoutException;
+
 
 class area{
     void findarea(int a ){
