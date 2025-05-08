@@ -1,19 +1,19 @@
-public class person {
+public class Person {
     void displayName(){
         System.out.println("displaying the name");
     }
 }
-class student extends person{
+class Student extends Person{
     void displayclass(){
         System.out.println("displaying class");
     }
 }
-class monitor extends student{
+class Monitor extends Student{
     void checkdiscipline(){
         System.out.println("checking the discipline ");
     }
     public static void main(String[] args) {
-        monitor obj=new monitor();
+        Monitor obj=new Monitor();
         obj.checkdiscipline();
         obj.displayclass();
         obj.displayName();
