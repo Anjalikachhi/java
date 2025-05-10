@@ -7,11 +7,11 @@ public static void main(String[] args) {
     for(int i=0;i<arr.length;i++){
         m[i]=arr[i];
     }
-    for(int j=0;j<arr.length;j++){
+    for(int j=0;j<arr1.length;j++){
         m[arr.length+j]=arr1[j];
     }
-    for(int k=0;k<arr.length;k++){
+    for(int k=0;k<m.length;k++){
 
-        System.out.println(m[i]);
+        System.out.println(m[k]);
     }
 }}
