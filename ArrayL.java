@@ -9,7 +9,8 @@ public class ArrayL {
        list.add(2);
        list.add(9);
      //  ArrayList<Integer> data =(ArrayList<Integer>) list.stream().map(a->a*5).collect(Collectors.toList());
-              ArrayList<Integer> data =(ArrayList<Integer>) list.stream().filter(a->a>6).collect(Collectors.toList());
-System.out.println(data);
+            //  ArrayList<Integer> data =(ArrayList<Integer>) list.stream().filter(a->a>6).collect(Collectors.toList());
+int sum= list.stream().reduce(0,(a,b)->a+b);
+            System.out.println(sum);
     }
 }
